@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulários HTML</title>
+</head>
+
+<body>
+
+  <head>
+    <main>
+      <h1>Formulários</h1>
+      <hr>
+      <br>
+      <form>
+        <div>
+          <label for="texto">Nome.:</label>
+          <input type="text" id="texto" name="nome" placeholder="Informe o seu Nome...">
+        </div>
+        <br>
+        <div>
+          <label for="senha">Senha.:</label>
+          <input type="password" id="senha" name="senha" placeholder="Digite Sua Senha">
+        </div>
+        <br>
+        <div>
+          <label for="email">E-mail.:</label>
+          <input type="email" id="email" name="email" placeholder="Digite Seu email">
+        </div>
+        <br>
+        <div>
+          <label for="data">Data Nascímento.:</label>
+          <input type="date" id="data" name="data">
+        </div>
+        <br>
+        <div>
+          <label for="hora">Horário.:</label>
+          <input type="time" id="hora" name="hora">
+        </div>
+        <br>
+        <div>
+          <textarea name="texto" id="texto"></textarea>
+        </div>
+        <br>
+        <div>
+          <select name="select" id="select">
+            <option value="" selected disabled>Selecione uma das opções...</option>
+            <option value="receita">Receita</option>
+            <option value="despesas">Despesas</option>
+            <option value="transferencia">Transferência</option>
+          </select>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div>
+          <input type="submit" id="enviar" name="enviar" value="Enviar">
+        </div>
+      </form>
+    </main>
+  </head>
+</body>
+
+</html>
