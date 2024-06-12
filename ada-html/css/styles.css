@@ -1,0 +1,34 @@
+.principal{
+  margin:0px;
+  padding:0px;
+}
+:root{
+  font-size: 62.5%;
+}
+body{
+  font-family: 'Times New Roman', Times, serif;
+}
+.bg-img{
+  height: 500px;
+  width: 100%;
+  background-image: url('https://img.odcdn.com.br/wp-content/uploads/2023/11/shutterstock_2296446219-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+h1 {
+  color: #0477d4;
+  font-size: 9.6rem;
+  font-weight: 900;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-family: "Comic Neue",arial, cursive;
+}
+
+p{
+  font-size: 1.8rem;
+  text-align: justify;
+  text-indent: 90px;
+}
